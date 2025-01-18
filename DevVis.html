@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Code to Image Generator</title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.css"> 
+  <link rel="stylesheet" href="DevVis.css"> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <header> 
+    <h1>Code to Image Generator</h1> 
+    <p class="tagline">Turn your code snippets into <span class="typed-text"></span><span id="typeTextSpan"></span> <span class="cursor">&nbsp;</span> </p> 
+   </header> 
+   <main class="workspace"> 
+    <div class="editor-window"> 
+     <div class="window-toolbar"> <span class="window-button close"></span> <span class="window-button minimize"></span> <span class="window-button maximize"></span> 
+     </div> 
+     <div class="editor-content"> 
+      <div class="line-numbers"></div> <textarea id="codeEditor" spellcheck="false" placeholder="Paste your code here..."></textarea> 
+     </div> 
+    </div> 
+    <div class="controls"> <button class="generate-btn">Generate Image</button> 
+     <div class="spinner"></div> 
+    </div> 
+    <div class="output-window"> 
+     <div class="window-toolbar"> <span class="window-button close"></span> <span class="window-button minimize"></span> <span class="window-button maximize"></span> 
+     </div> 
+     <div class="output-content"></div> 
+    </div> 
+   </main> 
+  </div> 
+  <footer> 
+   <p>Built with ❤️ by Alen BluBerry™</p> 
+   <div class="social-links"> <a href="https://github.com/your-username" target="_blank">GitHub</a> <a href="https://twitter.com" target="_blank">Twitter</a> <a href="https://linkedin.com" target="_blank">LinkedIn</a> 
+   </div> 
+  </footer> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script> 
+  <script src="DevVis.js"></script> 
+ </body>
+     </html>
